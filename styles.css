@@ -1,0 +1,163 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.header {
+    height:auto;
+    background-color: rgb(24,24,24);
+}
+
+.navbar-style{
+/*    box-shadow: 0 5px 10px #efefef;*/
+    padding:2rem;
+}
+
+li.active {background-color: #333}
+
+.logo {
+    height: 48px;
+    padding: 2px 10px;
+    padding-right: 45rem;
+}
+
+.random{
+    margin:4.5rem;
+    margin-left:33rem;
+    margin-right:33rem;
+}
+
+
+header, main, footer {
+        max-width: 100vw;
+        margin:auto;
+        background-color: rgb(24,24,24);
+    }
+.logo1 {
+    height: 48px;
+    padding: 2px 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: rgb(24,24,24);
+}
+
+#midpoint1{
+  background-color: orangered;
+  margin: 2rem;
+  margin-left:33rem;
+  margin-right:33rem;
+  padding: .5rem;
+  padding-top: 1rem;
+  padding-bottom: .1rem;
+  text-align: center;
+  font-size:1.5rem;
+  color:white;
+}
+
+
+.search-field{
+    border: none;
+    border-radius: 100px; 
+    outline: none;
+    background-color: transparent;
+    font-style: italic;
+    }
+
+.navbar-nav.navbar-center {
+    position: relative;
+    left: 50%;
+    transform: translatex(-50%);
+    background-color:rgb(35,35,35);
+  }
+
+ul li a {
+  color:  white;
+  font-family: "Helvetica," sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+
+figcaption{
+    margin-top:0rem;
+    padding-top:0rem;
+    margin-left: 2rem;
+    
+    text-align: center;
+    font-size: 3rem;
+    background-color: orangered;
+}
+
+@media (min-width: 576px) {
+    .logo {
+        height: 48px;
+        padding: 2px 10px;
+        padding-right: 35rem;
+    }
+    
+   .logo1 {
+        height: 48px;
+        padding: 2px 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    } 
+    .search-field{
+        margin-left: -33rem;
+        margin-right: 20rem;
+    }
+    
+     figcaption{
+        margin-right: -2rem;
+    }
+    
+  
+
+}
+
+
+
+@media (min-width: 1024px) { 
+    
+    .logo {
+        height: 48px;
+        padding: 2px 10px;
+        padding-right: 35rem;
+    }
+        
+
+    
+   .logo1 
+    {
+        height: 48px;
+        padding: 2px 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        
+    } 
+    
+    .search-field
+    {
+        margin-left: -33rem;
+        margin-right: 30rem;
+        padding: 10px 35px 10px 15px;
+        border: none;
+        border-radius: 100px; 
+        outline: none;
+        background-color: transparent;
+        font-style: italic;
+    }
+    
+    figcaption{
+        margin-right: 10rem;
+    }
+    
+  
+ }
+
+
