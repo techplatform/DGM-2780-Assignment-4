@@ -114,6 +114,25 @@ figcaption{
         margin-right: -2rem;
     }
     
+    .random
+    {
+        margin:4.5rem;
+        
+    }
+    
+    #midpoint1
+    {
+      background-color: orangered;
+      margin: 2rem;
+      margin-left:4.5rem;
+      margin-right:4.5rem;
+      padding: .5rem;
+      padding-top: 1rem;
+      padding-bottom: .1rem;
+      text-align: center;
+      font-size:1.5rem;
+      color:white;
+    }
   
 
 }
@@ -157,7 +176,13 @@ figcaption{
         margin-right: 10rem;
     }
     
-  
+    .random
+    {
+        margin:4.5rem;
+        
+    }
+    
+
  }
 
 
